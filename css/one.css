@@ -1,0 +1,99 @@
+.center_p {
+    margin: auto; 
+    height: auto;
+ }
+
+
+/*карусель*/
+.carousel slide {
+    height: auto;
+}
+
+/*карусель*/
+.carousel-inner {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    
+   }
+
+.carousel-inner > .item > img {
+   width: 100%;
+    margin: auto;}
+
+
+/* Індикатори прокрутки*/
+.carousel-indicators li {
+    background-color: #000;
+    border: 0.1px solid #000;
+   }
+li {
+    color: black;
+}
+
+.Sidebar {
+    position: absolute;
+    text-align: center;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    background-color: black;
+}
+
+.Close {
+    position: absolute;
+    right: 45%;
+    top: 50px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    display: block;
+    user-select: none;
+   
+}
+
+.Close:after {
+    content: "";
+    position: absolute;
+    left: -6px;
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+}
+
+.Close .l1 {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    transform-origin: 50% 50%;
+    transform: rotate(45deg);
+    position: absolute;
+    left: -3px;
+    top: 11px;
+    transition: transform .15s ease-out;
+}
+
+.Close {
+    cursor: pointer;
+}
+
+.Close .l2 {
+    content: "";
+    width: 30px;
+    height: 3px;
+    left: -3px;
+    top: 11px;
+    background: #fff;
+    transform-origin: 50% 50%;
+    transform: rotate(-45deg);
+    position: absolute;
+    transition: transform .15s ease-out;
+}
+
+.Close:hover .l1 {
+    width: 33px;
+    } 
+
+.Close:hover .l2 {
+    width: 33px;
+        }  
